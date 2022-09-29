@@ -1,0 +1,36 @@
+
+
+.signUpInfoForm, .personalInfoForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  button {
+    margin: 20px auto 0 auto;
+    padding: 5px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: 700;
+    background-color: var(--primari);
+    &:hover {
+      background-color: var(--primari-hover);
+    }
+  }
+}
+
+.input {
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 8px;
+  color: var(--black);
+  border: 2px solid var(--black);
+  font-size: 15px;
+
+}
+
+.error {
+  margin-left: 10px;
+  margin-top: -10px;
+  color: red;
+  font-size: 14px;
+}

@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+   justify-content: center;
+    color:var(--black);
+    font-size:16px ;
+    line-height: 20px;
+    background: var(--gray-light);
+    padding: 25px 30px;
+}
+.footer a:hover {
+    color:var(--gray-light)
+}
+@media (max-width: 765px) {
+    .footer {
+        max-height: 200px;
+        padding: 15px 10px;
+    }
+}
+.container{
+    max-width: 1100px;
+}
